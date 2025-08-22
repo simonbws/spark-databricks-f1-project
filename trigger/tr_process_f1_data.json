@@ -1,0 +1,28 @@
+{
+	"name": "tr_process_f1_data",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "pl_process_formula1_data",
+					"type": "PipelineReference"
+				},
+				"parameters": {
+					"p_window_end_date": "@trigger().outputs.windowEndTime"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Hour",
+				"interval": 168,
+				"startTime": "2021-03-14T10:00:00",
+				"endTime": "2021-04-18T10:00:00",
+				"timeZone": "Central European Standard Time"
+			}
+		}
+	}
+}
