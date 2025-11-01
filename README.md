@@ -1,4 +1,4 @@
-# 🏎️ Formula 1 Data Engineering Project — Databricks & Spark
+# Formula 1 Data Engineering Project — Databricks & Spark
 
 This project presents a complete data engineering pipeline built with Azure Databricks, Apache Spark, and Delta Lake. It focuses on processing and analyzing Formula 1 race data retrieved from the Ergast Developer API (https://ergast.com/mrd/).
 
