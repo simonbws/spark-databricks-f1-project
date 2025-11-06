@@ -65,4 +65,6 @@ Main datasets include:
 - **Azure Data Factory** — simple pipeline orchestration
 
 ---
+#### Author simonbws
 This project is based on a Udemy data engineering course and was recreated to deepen my understanding of Apache Spark, Azure Databricks, and data lakehouse architecture.
+#### [View the Certificate of Completion] https://www.udemy.com/certificate/UC-595a172d-5bb5-4bdf-b37b-bd7d65a1d25a/
